@@ -1,22 +1,33 @@
 <html>
   <body>
     <h1>
-      Hello World!
+      Day 2: What is HTML, anyway?
     </h1>
     <p>
-      Now, you're probably wondering what this Web 1.0-ass page is doing on a github hosting service.
-      I'm doing this because I want to create my own page from scratch, without relying on any other web services like WordPress that let you drag-and-drop the information.
-      I want to make this myself. So I'm going to be walking you through each step of how to build a webpage from scratch. 
-      If you'd like to work along, we'll be using the HTML and CSS programming languages, as well as some Javascript if we get that far. Strap in!
+      Now that we've got a basic site up, it's time to add some text to it! HTML stands for <b>Hyper-Text Markup Language</b>, and it forms the building blocks of every website, from this little thing to social media sites and beyond. 
+      <br>
+      'Hyper-Text' is just text that can be read by an internet browser. HTML is all about using tags to format the text that you write.
+    </p>
+    <h2>Tags 101</h2>
+    <p>
+      A <b>tag</b> is a piece of code that tells HTML how to display the text that lies between tags. Below, you can see an image of this webpage in early development:
+    </p>
+    <img src="day2.JPG">
+    <p>
+      Here, you can see tags in action! The '<' and '>' characters mark where a tag starts and ends. Remember that a closing tag has a '/' in it as well!
     </p>
     <h2>
-      So, where do you start?
+      What tags can you use?
     </h2>
-    <p>
-      Well, the first thing to do is to <b>host</b> your webpage. Now, this seems very complicated...
-      There are a lot of options to choose from! But let's be honest, we're not making anything requiring fancy features. For now, creating our own Web 1.0 page, we're only writing HTML on a blank document, so we can just use Github Pages.
-      You'll want to make a Github account, and then follow the steps here: <a>https://pages.github.com/</a>
-    </p>
-    That's all for today! Hosting was a pain, so I'll talk more about how to use HTML next time. See you then!
+    Here's a list of all the tags I've used so far.
+    <ul>
+      <li><b>html</b>: Marks the start and end of the document. This tells the web browser you're reading the page on to treat this file as a HTML file, and not as any other type of file.</li>
+      <li><b>body</b>: Denotes where the main part of the document is located. Anything not inside the body won't show up on your webpage. Above the body is the <b>head</b> of the document, where non-visible information is located. We'll get back to that one much later.</li>
+      <li><b>p</b>: P stands for 'paragraph'! You can absolutely write text without a p tag, but putting your text in paragraphs makes it much easier to format later.</li>
+      <li><b>h1, h2...</b>: These are <b>headings</b>, which you use for titles. H1 is the biggest, and they can go all the way down to h6.</li>
+      <li><b>ul and li</b>: Ul stands for 'unordered list', and it's how you get bullet points. Li stands for 'list item', and you use it to mark each individual item inside the ul tag.</li>
+      <li><b>img</b>: This is how I got that image in up there ^! img is a complicated tag that I'll have a lot more to talk about in the future.</li>
+    </ul>
+    And that's everything for today! Next time: where did the last page go? And how can we view different versions of the website as it evolves? We'll have to look at a <b>link</b>...
   </body>
-</html>>
+</html>
